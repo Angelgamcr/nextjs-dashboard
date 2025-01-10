@@ -11,6 +11,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${montserrat.className} antialiased`}>
         {children}
+        <footer>
+          Footer en RootLayout
+        </footer>
       </body>
     </html>
   );
