@@ -3,3 +3,7 @@
 This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
 
 For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+
+## Requisitos
+- Base de datos de postgres para asignar la url segun el `.env.example`. Recomendado usar neon en vercel para crear la BD.
+- Si la base de datos esta vacia, debe ir a `http://localhost:3000/seed` para agregar tablas y datos. Puede consultar datos con `http://localhost:3000/query`
